@@ -1,0 +1,13 @@
+LOAD      r1,r0,r0[510]
+STORE   r1,r0,r15[8]
+LOAD   r1,r0,r15[10]
+STORE   r1,r0,r15[7]
+LOAD      r1,r0,r0[510]
+STORE   r1,r0,r15[6]
+loop_5:   #While loop
+LOAD   r2,r0,r15[5]
+SUB      r0,r2,r0[0]
+watch_1:  DATA 0
+count_2:  DATA 0
+observe_4:  DATA 0
+const0_3:  DATA 0
